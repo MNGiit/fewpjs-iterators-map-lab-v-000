@@ -19,7 +19,17 @@ const titleCased = () => {
   // return tutorials
   // word[0] === word[0].toUpperCase()
   return tutorials.map(function (tutorial) {
-    tutorial[0] === tutorial[0].toUpperCase();
+    tutorial = tutorial.split(' ');
+    for ()
   })
 }
 
+function titleCased() {
+  return tutorials.map(function (tutorial) {
+    tutorial = tutorial.split(' ');
+    for (var i = 0; i < tutorial.length; i++) {
+      tutorial[i] = tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice(1);
+    }
+    return tutorial.join(' ');
+  });
+}
