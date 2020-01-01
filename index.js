@@ -20,7 +20,9 @@ const titleCased = () => {
   // return tutorials
   // word[0] === word[0].toUpperCase()
   return tutorials.map(function (tutorial) {
-    return tutorial = tutorial.charAt(0).toUpperCase() + tutorial.slice(1);
+    // return tutorial = tutorial.charAt(0).toUpperCase() + tutorial.slice(1);
+    // test wants every word to be uppercase
+    
   })
 }
 
