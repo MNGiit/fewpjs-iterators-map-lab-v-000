@@ -12,6 +12,8 @@ const tutorials = [
 ];
 
 // https://stackoverflow.com/questions/8334606/check-if-first-letter-of-word-is-a-capital-letter
+// function titleCased()
+// const titleCased = () =>
 
 const titleCased = () => {
   // return tutorials
