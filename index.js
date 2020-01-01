@@ -15,7 +15,7 @@ const tutorials = [
 // function titleCased()
 // const titleCased = () =>
 
-const titleCased = () => {
+function titleCased() {
   // return tutorials
   // return word[0] !== word[0].toLowerCase();
   return tutorials.map(function (tutorial) {
