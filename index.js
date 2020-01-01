@@ -11,7 +11,7 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-// https://stackoverflow.com/questions/8334606/check-if-first-letter-of-word-is-a-capital-letter
+// https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
 // function titleCased()
 // const titleCased = () =>
 
