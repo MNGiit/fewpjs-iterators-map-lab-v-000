@@ -14,5 +14,7 @@ const tutorials = [
 // https://stackoverflow.com/questions/8334606/check-if-first-letter-of-word-is-a-capital-letter
 
 const titleCased = () => {
-  return tutorials
+  // return tutorials
+  // return word[0] !== word[0].toLowerCase();
+  tutorials.map
 }
