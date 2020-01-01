@@ -15,11 +15,20 @@ const tutorials = [
 // function titleCased()
 // const titleCased = () =>
 
-function titleCased() {
+const titleCased = () => {
   // return tutorials
   // return word[0] !== word[0].toLowerCase();
   return tutorials.map(function (tutorial) {
-    tutorial[0] !== tutorial[1].toLowerCase();
+    tutorial[0] !== tutorial[0].toLowerCase();
   })
 }
 
+function titleCased() {
+  return tutorials.map(function (tutorial) {
+    tutorial = tutorial.split(' ');
+    for (var i = 0; i < tutorial.length; i++) {
+      tutorial[i] = tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice(1);
+    }
+    return tutorial.join(' ');
+  });
+}
